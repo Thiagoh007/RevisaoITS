@@ -5,10 +5,10 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-class CalculadoraTest {
+public class CalculadoraTest {
 
 	@Test
-    void testarSoma(){
+     public void testarSoma(){
         Double numero1 = 2.0;
         Double numero2 = 2.0;
         Double esperado = 4.0;
@@ -17,7 +17,7 @@ class CalculadoraTest {
     }
 
     @Test
-    void testarSubtracao(){
+      public void testarSubtracao(){
         calculadora = new Calculadora();
         Double numero1 = 4.0;
         Double numero2 = 4.0;
@@ -29,7 +29,7 @@ class CalculadoraTest {
     }
 
     @Test
-    void testarMultiplicacao(){
+    public void testarMultiplicacao(){
         calculadora = new Calculadora();
         Double numero1 = 2.0;
         Double numero2 = 2.0;
@@ -39,7 +39,7 @@ class CalculadoraTest {
     }
 
     @Test
-    void testarDivisao() {
+    public void testarDivisao() {
         calculadora = new Calculadora();
         Double numero1 = 2.0;
         Double numero2 = 2.0;
@@ -50,8 +50,8 @@ class CalculadoraTest {
     }
 
     @Test
-    void testarDivisaoComZero(){
-        calculadora = new Calculadora();
+    public void testarDivisaoComZero(){
+        Calculadora = new Calculadora();
         Double numero1 = 2.0;
         Double numero2 = 0.0;
         Double esperado = -1.0;
