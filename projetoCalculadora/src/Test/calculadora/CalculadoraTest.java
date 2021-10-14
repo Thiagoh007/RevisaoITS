@@ -1,5 +1,5 @@
 package Test.calculadora;
 
-public class calculadoraTest {
+public class CalculadoraTest {
 
 }
