@@ -1,19 +1,24 @@
 package Calculadora;
 
 public class Calculadora {
-	public double somar(double num1, double num2) {
-		return 0.0;
+	public double somar(double numero1, double numero2) {
+		double resultado = numero1 + numero2;
+		return resultado;
 	}
 
-	public double subtrair(double num1, double num2) {
-		return 0.0;
+	public double subtrair(double numero1, double numero2) {
+		double resultado = numero1 - numero2;
+		return resultado;
+		
 	}
 
-	public double multiplicar(double num1, double num2) {
-		return 0.0;
+	public double multiplicar(double numero1, double numero2) {
+		double resultado = numero1 * numero2;
+		return resultado;
 	}
 
-	public double dividir(double num1, double num2) {
-		return 0.0;
+	public double dividir(double numero1, double numero2) {
+		double resultado = numero1 / numero2;
+		return resultado;
 	}
 }
